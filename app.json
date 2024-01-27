@@ -2,7 +2,7 @@
   "expo": {
     "name": "nativeApp",
     "slug": "nativeApp",
-    "description":"This is Todo app",
+    "description": "This is Todo app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,10 +22,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "todo.com"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "961abf2d-303d-4d58-8e35-1be1f5dfc3d8"
+      }
     }
   }
 }
